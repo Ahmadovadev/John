@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Heebo, sans-serif;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+  color: rgba(33, 36, 61, 1);
+}
+
+#header .container {
+  width: 100%;
+  margin-inline: auto;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.header {
+  padding-block: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.header a {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.main {
+  padding: 100px 0 60px 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main-text h1 {
+  font-size: 44px;
+  font-weight: 700;
+  width: 500px;
+  height: 100px;
+}
+
+.main-text p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 497px;
+  line-height: 27px;
+}
+
+.main-text button {
+  width: 200px;
+  height: 47px;
+  font-style: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  background: rgba(255, 100, 100, 1);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+#john {
+  background: rgba(237, 247, 250, 1);
+  padding-block: 40px;
+}
+
+.john {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.john.box {
+  width: 400px;
+  height: 295px;
+  padding: 40px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.john-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.john-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(33, 36, 61, 1);
+}
+.john-text a {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 168, 204, 1);
+}
+.box p {
+  width: 350px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.logo-text {
+  padding: 10px 20px;
+}
+
+.logo-text h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.logo-title {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo-title b {
+  background: rgba(20, 40, 80, 1);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.logo-text p {
+  color: rgba(33, 36, 61, 1);
+  font-weight: 400;
+  font-size: 16px;
+  width: 550px;
+}
+
+.logo-title p {
+  color: rgba(134, 149, 164, 1);
+}
+
+.logo-header {
+  padding-top: 20px;
+}
+.footer1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
